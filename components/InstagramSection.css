@@ -1,0 +1,21 @@
+.instagram-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.insta-image-wrapper {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.insta-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

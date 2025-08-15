@@ -1,0 +1,10 @@
+.collection-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.collection-content {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  max-width: 80%;
+}

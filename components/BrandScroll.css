@@ -1,0 +1,31 @@
+.scroll-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.scroll-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll-left 20s linear infinite;
+}
+
+.brand-item {
+  flex-shrink: 0;
+  padding: 0 2rem;
+}
+
+.brand-logo {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
